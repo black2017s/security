@@ -355,8 +355,7 @@ if('0' === '1') {
     <link rel="icon" href="wp-content/uploads/2021/05/logo-nik-security-muenchen-130x150.png" sizes="32x32" />
     <link rel="icon" href="wp-content/uploads/2021/05/logo-nik-security-muenchen.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="wp-content/uploads/2021/05/logo-nik-security-muenchen.png" />
-    <meta name="msapplication-TileImage"
-        content="https://i.postimg.cc/13p9W5Tw/Untitled.jpg" />
+    <meta name="msapplication-TileImage" content="https://i.postimg.cc/13p9W5Tw/Untitled.jpg" />
     <script>function setREVStartSize(e) {
             //window.requestAnimationFrame(function() {
             window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
@@ -506,10 +505,10 @@ if('0' === '1') {
     </style>
     <style id="us-theme-options-css">
         :root {
-            --color-header-middle-bg: #ffffff;
+            --color-header-middle-bg: #fffffff1;
             --color-header-middle-bg-grad: #ffffff;
             --color-header-middle-text: #333333;
-            --color-header-middle-text-hover: #ff400d;
+            --color-header-middle-text-hover: rgba(130, 55, 187, 0.907);
             --color-header-transparent-bg: transparent;
             --color-header-transparent-bg-grad: transparent;
             --color-header-transparent-text: #ffffff;
@@ -517,7 +516,7 @@ if('0' === '1') {
             --color-chrome-toolbar: #f5f5f5;
             --color-chrome-toolbar-grad: #f5f5f5;
             --color-header-top-text: #333333;
-            --color-header-top-text-hover: #ff400d;
+            --color-header-top-text-hover: #333;
             --color-header-top-transparent-text-hover: #fff;
             --color-content-bg: #ffffff;
             --color-content-bg-grad: #ffffff;
@@ -526,15 +525,15 @@ if('0' === '1') {
             --color-content-border: #e8e8e8;
             --color-content-heading: #1a1a1a;
             --color-content-heading-grad: #1a1a1a;
-            --color-content-text: #333333;
-            --color-content-link: #ff400d;
+            --color-content-text: #383434;
+            --color-content-link: white;
             --color-content-link-hover: #4a4a4a;
-            --color-content-primary: #ff400d;
-            --color-content-primary-grad: #ff400d;
-            --color-content-secondary: #ff400d;
-            --color-content-secondary-grad: #ff400d;
-            --color-content-faded: #999999;
-            --color-alt-content-bg: #f5f5f5;
+            --color-content-primary: #333;
+            --color-content-primary-grad: #333;
+            --color-content-secondary: #333;
+            --color-content-secondary-grad: #333;
+            --color-content-faded: #999999cc;
+            --color-alt-content-bg: #f5f5f5d2;
             --color-alt-content-bg-grad: #f5f5f5;
             --color-alt-content-bg-alt: #ffffff;
             --color-alt-content-bg-alt-grad: #ffffff;
@@ -542,15 +541,15 @@ if('0' === '1') {
             --color-alt-content-heading: #1a1a1a;
             --color-alt-content-heading-grad: #1a1a1a;
             --color-alt-content-text: #333333;
-            --color-alt-content-link: #ff400d;
-            --color-alt-content-link-hover: #ff400d;
-            --color-alt-content-primary: #ff400d;
-            --color-alt-content-primary-grad: #ff400d;
-            --color-alt-content-secondary: #ff400d;
-            --color-alt-content-secondary-grad: #ff400d;
+            --color-alt-content-link: gray;
+            --color-alt-content-link-hover: #333;
+            --color-alt-content-primary: #333;
+            --color-alt-content-primary-grad: #333;
+            --color-alt-content-secondary: #333;
+            --color-alt-content-secondary-grad: #333;
             --color-alt-content-faded: #999999;
-            --color-alt-content-overlay: #ff400d;
-            --color-alt-content-overlay-grad: #ff400d;
+            --color-alt-content-overlay: black;
+            --color-alt-content-overlay-grad: black;
             --color-footer-bg: #222222;
             --color-footer-bg-grad: #222222;
             --color-footer-bg-alt: #1a1a1a;
@@ -558,7 +557,7 @@ if('0' === '1') {
             --color-footer-border: #333333;
             --color-footer-text: #999999;
             --color-footer-link: #cccccc;
-            --color-footer-link-hover: #ff400d;
+            --color-footer-link-hover: #333;
             --color-subfooter-bg: #1a1a1a;
             --color-subfooter-bg-grad: #1a1a1a;
             --color-subfooter-bg-alt: #222222;
@@ -568,7 +567,7 @@ if('0' === '1') {
             --color-subfooter-heading-grad: #cccccc;
             --color-subfooter-text: #bbbbbb;
             --color-subfooter-link: #ffffff;
-            --color-subfooter-link-hover: #ff400d;
+            --color-subfooter-link-hover: #333;
             --color-content-primary-faded: rgba(255, 64, 13, 0.15);
             --box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
             --box-shadow-up: 0 -5px 15px rgba(0, 0, 0, .15);
@@ -3188,7 +3187,8 @@ if('0' === '1') {
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8456">
                                             <a class="w-nav-anchor level_2" href="unternehmenspolitik/index.html"><span
                                                     class="w-nav-title">Unternehmenspolitik</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li id="menu-item-7832"
@@ -3200,74 +3200,88 @@ if('0' === '1') {
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8221">
                                             <a class="w-nav-anchor level_2" href="personenschutz/index.html"><span
                                                     class="w-nav-title">Personenschutz</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                         <li id="menu-item-8258"
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8258">
                                             <a class="w-nav-anchor level_2" href="concierge-service/index.html"><span
                                                     class="w-nav-title">Concierge Service</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                         <li id="menu-item-8282"
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8282">
                                             <a class="w-nav-anchor level_2" href="limousinenservice/index.html"><span
                                                     class="w-nav-title">Limousinenservice</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                         <li id="menu-item-8359"
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8359">
                                             <a class="w-nav-anchor level_2" href="eventschutz/index.html"><span
                                                     class="w-nav-title">Eventschutz</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                         <li id="menu-item-8377"
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8377">
                                             <a class="w-nav-anchor level_2"
                                                 href="sicherheitsdienst-im-einzelhandel/index.html"><span
                                                     class="w-nav-title">Sicherheitsdienst im Einzelhandel</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                         <li id="menu-item-8385"
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8385">
                                             <a class="w-nav-anchor level_2" href="detektei/index.html"><span
                                                     class="w-nav-title">Detektei</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                         <li id="menu-item-8391"
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8391">
                                             <a class="w-nav-anchor level_2" href="werttransport/index.html"><span
                                                     class="w-nav-title">Werttransport</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                         <li id="menu-item-8407"
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8407">
                                             <a class="w-nav-anchor level_2"
                                                 href="werk-und-objektschutz/index.html"><span class="w-nav-title">Werk-
-                                                    und Objektschutz</span><span class="w-nav-arrow"></span></a></li>
+                                                    und Objektschutz</span><span class="w-nav-arrow"></span></a>
+                                        </li>
                                         <li id="menu-item-8410"
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8410">
                                             <a class="w-nav-anchor level_2" href="baustellenbewachung/index.html"><span
                                                     class="w-nav-title">Baustellenbewachung</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                         <li id="menu-item-8422"
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8422">
                                             <a class="w-nav-anchor level_2"
                                                 href="schluesselaufbewahrung/index.html"><span
                                                     class="w-nav-title">Schlüsselaufbewahrung</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                         <li id="menu-item-8421"
                                             class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_2 menu-item-8421">
                                             <a class="w-nav-anchor level_2" href="videoueberwachung/index.html"><span
                                                     class="w-nav-title">Videoüberwachung</span><span
-                                                    class="w-nav-arrow"></span></a></li>
+                                                    class="w-nav-arrow"></span></a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li id="menu-item-8435"
                                     class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-8435">
                                     <a class="w-nav-anchor level_1" href="sicherheitskonzepte/index.html"><span
                                             class="w-nav-title">SICHERHEITSKONZEPTE</span><span
-                                            class="w-nav-arrow"></span></a></li>
+                                            class="w-nav-arrow"></span></a>
+                                </li>
                                 <li id="menu-item-8306"
                                     class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-8306">
                                     <a class="w-nav-anchor level_1" href="jobs/index.html"><span
-                                            class="w-nav-title">JOBS</span><span class="w-nav-arrow"></span></a></li>
+                                            class="w-nav-title">JOBS</span><span class="w-nav-arrow"></span></a>
+                                </li>
                                 <li id="menu-item-8346"
                                     class="menu-item menu-item-type-post_type menu-item-object-page w-nav-item level_1 menu-item-8346">
                                     <a class="w-nav-anchor level_1" href="kontakt/index.html"><span
-                                            class="w-nav-title">KONTAKT</span><span class="w-nav-arrow"></span></a></li>
+                                            class="w-nav-title">KONTAKT</span><span class="w-nav-arrow"></span></a>
+                                </li>
                                 <li class="w-nav-close"></li>
                             </ul>
                             <div class="w-nav-options hidden"
@@ -3565,7 +3579,8 @@ if('0' === '1') {
                                                                 <strong>Sicherheit</strong> ganzheitlich und
                                                                 professionell zu beraten und zu betreuen. Informieren
                                                                 Sie sich jetzt über unsere Sicherheitsdienstleistungen
-                                                                in Ihrem Betrieb: <strong>0800/7002200</strong></p>
+                                                                in Ihrem Betrieb: <strong>0800/7002200</strong>
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -4081,12 +4096,14 @@ if('0' === '1') {
                                                                 hochqualifiziert. Auf unseren Spezialgebieten bilden wir
                                                                 uns durch die Teilnahme an Fachseminaren laufend fort
                                                                 und besitzen die notwendigen Zertifikate (u. a. TÜV Süd,
-                                                                ISO 9001:2015)</p>
+                                                                ISO 9001:2015)
+                                                            </p>
                                                             <p>Ihr Vertrauen ist die Basis unserer Arbeit als
                                                                 <strong>Sicherheitsdienst</strong> in München. Ob als
                                                                 mittelständischer Unternehmer oder als anspruchsvoller
                                                                 Privatmandant. Wir sind ihr kompetenter Partner für
-                                                                individuelle Sicherheit.</p>
+                                                                individuelle Sicherheit.
+                                                            </p>
                                                         </div>
                                                     </div>
                                                     <div class="w-separator us_custom_307d7efd size_small"></div>
@@ -4141,7 +4158,8 @@ if('0' === '1') {
                                                                 </strong>und Personen. Dank unseres breit gefächerten
                                                                 Leistungsspektrums profitieren Sie von ausgefeilten und
                                                                 markterprobten Gesamtkonzepten unserer
-                                                                <strong>Securityfirma in München</strong>.</p>
+                                                                <strong>Securityfirma in München</strong>.
+                                                            </p>
                                                             <p>Vollkommen professionell aber auch freundlich erbringen
                                                                 unsere qualifizierten
                                                                 <strong>Sicherheitsfachkräfte</strong> Dienstleistungen
@@ -4475,7 +4493,8 @@ if('0' === '1') {
                                                                 <li id="menu-item-8445"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8445">
                                                                     <a href="concierge-service/index.html">Concierge
-                                                                        Service</a></li>
+                                                                        Service</a>
+                                                                </li>
                                                                 <li id="menu-item-8444"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8444">
                                                                     <a
@@ -4489,10 +4508,12 @@ if('0' === '1') {
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8442">
                                                                     <a
                                                                         href="sicherheitsdienst-im-einzelhandel/index.html">Sicherheitsdienst
-                                                                        im Einzelhandel</a></li>
+                                                                        im Einzelhandel</a>
+                                                                </li>
                                                                 <li id="menu-item-8441"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8441">
-                                                                    <a href="detektei/index.html">Detektei</a></li>
+                                                                    <a href="detektei/index.html">Detektei</a>
+                                                                </li>
                                                                 <li id="menu-item-8440"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8440">
                                                                     <a href="werttransport/index.html">Werttransport</a>
@@ -4500,7 +4521,8 @@ if('0' === '1') {
                                                                 <li id="menu-item-8439"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8439">
                                                                     <a href="werk-und-objektschutz/index.html">Werk- und
-                                                                        Objektschutz</a></li>
+                                                                        Objektschutz</a>
+                                                                </li>
                                                                 <li id="menu-item-8438"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8438">
                                                                     <a
@@ -4587,10 +4609,12 @@ if('0' === '1') {
                                                                 </li>
                                                                 <li id="menu-item-8460"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8460">
-                                                                    <a href="kontakt/index.html">Kontakt</a></li>
+                                                                    <a href="kontakt/index.html">Kontakt</a>
+                                                                </li>
                                                                 <li id="menu-item-8461"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8461">
-                                                                    <a href="jobs/index.html">Jobs</a></li>
+                                                                    <a href="jobs/index.html">Jobs</a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -4710,10 +4734,12 @@ if('0' === '1') {
                                         <ul id="menu-footer-menu" class="menu">
                                             <li id="menu-item-8469"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8469">
-                                                <a href="impressum/index.html">Impressum</a></li>
+                                                <a href="impressum/index.html">Impressum</a>
+                                            </li>
                                             <li id="menu-item-8468"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8468">
-                                                <a href="datenschutz/index.html">Datenschutz</a></li>
+                                                <a href="datenschutz/index.html">Datenschutz</a>
+                                            </li>
                                         </ul>
                                         <style>
                                             @media (max-width:480px) {
